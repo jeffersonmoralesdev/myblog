@@ -1,0 +1,45 @@
+{
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": false,
+    "editor.fontSize": 14,
+    "debug.console.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "editor.glyphMargin": false,
+    "workbench.activityBar.location": "default",
+    "editor.lineNumbers": "on",
+    "files.eol": "\n", // Final de linha sempre será LF
+
+    "code-runner.clearPreviousOutput": true, //limpa o ultimo output
+    "code-runner.runInTerminal": true, //usar terminal
+    "code-runner.ignoreSelection": true, //desativa execução de codigo por trecho selecionado
+    "code-runner.executorMap": {
+        "typescript": "clear ; npx tsx" //comando para limpar o terminal e executar codigo do arquivo
+    },
+    "workbench.editor.enablePreview": false, //abrir realmente nova aba
+    "tailwindCSS.experimental.classRegex": [
+        ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+    ],
+    // 🛠 Formatação e Lint
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[svg]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
