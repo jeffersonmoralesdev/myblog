@@ -5,7 +5,7 @@ import { PostModel } from "@/src/model/post/posts-model";
 // além de facilitar testes e manutenção.
 
 export interface PostRepository{
-    findAllPublic():Promise<PostModel[]>;
+    findAllPostsPublic():Promise<PostModel[]>;
     findPostById(id:string):Promise<PostModel>;
     findPostBySlug(slug:string):Promise<PostModel>;
 }

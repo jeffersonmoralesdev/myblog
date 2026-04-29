@@ -4,8 +4,8 @@
 // reduz erros de tipagem e facilita manutenção caso a estrutura do post precise evoluir no futuro.
 export type PostModel = {
     id: string;
-    title: string;
     slug: string;
+    title: string;
     excerpt: string;
     content: string;
     coverImageUrl: string;
@@ -13,4 +13,17 @@ export type PostModel = {
     createdAt: string;
     updatedAt: string;
     author: string;
+};
+
+export type PostFromDbMysql = {
+  id: string;
+  slug: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  coverImageUrl: string;
+  published: number; // 👈 ainda é number
+  createdAt: string;
+  updatedAt: string;
+  author: string;
 };

@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1776372169222,
+      "tag": "0000_smart_preak",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1776387703205,
+      "tag": "0001_flowery_marvel_apes",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1776433348463,
+      "tag": "0002_definindo_primary_key_posts_como_uuid",
+      "breakpoints": true
+    }
+  ]
+}
